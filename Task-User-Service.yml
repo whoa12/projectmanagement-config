@@ -19,10 +19,10 @@ server:
 
 eureka:
   instance:
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8070/eureka
 
